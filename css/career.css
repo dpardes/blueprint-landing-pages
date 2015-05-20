@@ -1,0 +1,159 @@
+.bg-primary {
+    background-color: #ff5836;
+}
+
+.bg-secondary {
+	background-color: #e9eef2;
+}
+
+.bottom
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.header {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: url(../img/career/header.jpg);
+    max-height: 500px;
+}
+
+.header .header-content {
+    position: relative;
+    width: 100%;
+   	 padding: 100px 15px;
+}
+
+.header .header-content .header-content-inner h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.header .header-content .header-content-inner p {
+	font-family: 'tk-freight-display-pro', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255,255,255,1);
+    line-height: 1;
+}
+
+.header .header-content .header-content-inner .glyphicon-menu-down {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+@media(min-width:768px) {
+    .header {
+        min-height: 100%;
+    }
+
+    .header .header-content {
+        position: absolute;
+        top: 70%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header .header-content .header-content-inner p {
+        font-size: 40px;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .header {
+        min-height: 0;
+        height: 100%;
+    }
+}
+
+.expert {
+    background: url(../img/career/expert.svg);
+}
+
+.local {
+    background: url(../img/career/local.svg);
+}
+
+.tools {
+    background: url(../img/career/tools.svg);
+}
+
+.plan {
+    background: url(../img/career/plan.svg);
+}
+
+.header-content-inner h2 {
+  font-size: 60px;
+}
+
+.btn-default {
+   background-color: #ff5836;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #ccc;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+hr {
+    border-color: #000;
+    border-width: 1.5px;
+}
+
+.form-tag {
+	padding-bottom: 20px;
+}
